@@ -5,7 +5,7 @@ const prev = document.querySelector('#recomendation-carousel-prev');
 
 (function() {
     let script = document.createElement('script');
-    script.src = 'http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X';
+    script.src = 'https://roberval.chaordicsystems.com/challenge/challenge.json?callback=X';
     document.querySelector('body').appendChild(script);
 })();
 
@@ -78,7 +78,7 @@ function populateReference(reference) {
         <a href="${reference.detailUrl}" class="display-reference__item">
             <article>
                 <figure>
-                    <img src="http:${reference.imageName}" alt="">
+                    <img src="${reference.imageName}" alt="">
                 </figure>
                 <h3>${reference.name}</h3>
                 <p>${reference.oldPrice ? 'De ' + reference.oldPrice : ''}</p>
@@ -99,7 +99,7 @@ function populateRecomendations(recommendations) {
         <a href="${recommendation.detailUrl}" class="display-recomendations__item">
             <article>
                 <figure>
-                    <img src="http:${recommendation.imageName}" alt="">
+                    <img src="${recommendation.imageName}" alt="">
                 </figure>
                 <h3>${recommendation.name}</h3>
                 <p>${recommendation.oldPrice ? 'De ' + recommendation.oldPrice : ''}</p>
