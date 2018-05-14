@@ -1,0 +1,25 @@
+{
+  "name": "desafio-lnc",
+  "version": "1.0.0",
+  "description": "Desafio Linx+Neemu+Chaordic",
+  "main": "index.html",
+  "scripts": {
+    "test": "sass css/style.scss:css/style.css -scss --watch --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroybm/desafio-lnc.git"
+  },
+  "author": "Leroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroybm/desafio-lnc/issues"
+  },
+  "homepage": "https://github.com/leroybm/desafio-lnc#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
